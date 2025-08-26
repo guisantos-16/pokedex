@@ -1,0 +1,29 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* IMPORTANTE: box-sizing define como o tamanho total de um elemento (largura e altura) será calculado */
+
+/* content-box (valor padrão): width/height se referem apenas ao conteúdo.
+   O padding e o border são adicionados ao redor, aumentando o tamanho total do elemento.
+   O margin continua sendo externo e não afeta o tamanho calculado do elemento. */
+
+/* border-box: width/height incluem o conteúdo + padding + border.
+   Isso facilita manter um layout com tamanhos fixos.
+   O margin continua sendo externo e NÃO está incluído no cálculo do tamanho do elemento. */
+main{
+    background: radial-gradient(gray, black);
+    min-height: 100vh; /* Viewport height é uma unidade de medida que define uma porcentagem da ALTURA da janela do navegador. Se usa no CSS. */
+    
+}
+
+.pokedex, img{
+    height: 100vh;
+    width: auto;
+}
+
+
+
+
